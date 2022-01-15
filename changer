@@ -1,0 +1,44 @@
+# -*- coding: utf-8 -*-
+# codiname: WASSIM HACKROSS
+
+import smtplib
+
+print("""
+WASSIM HACKROSS                      WASSIM HACKROSS                                                                       
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------
+WELCOME 
+
+						                             ░                        
+Your Mac ADDRESSE has been successfully changed
+
+ifconfig==:::2a:9b:9a:73:64:72	""")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#!/isr/bin/env python
+ 
+
+import subprocess
+
+
+subprocess.call("ifconfig wlan0 down", shell=True)
+subprocess.call ("ifconfig wlan0 hw ether 2a:9b:9a:73:64:72",shell=True)
+subprocess.call("ifconfig wlan0 up",shell=True)
